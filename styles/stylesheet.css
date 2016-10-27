@@ -1,0 +1,54 @@
+body {
+    /* stoked I got a picture in here */
+    background-image: url(images/meonrock.jpg);
+    font-size: 15px;
+    font-family: sans-serif;
+    align-content: center;
+      }
+
+header {
+    background-color: aquamarine;
+    opacity: 0.7;
+    font-size: 15px;
+    font-family: serif;
+    align-content: center;
+  }
+
+h1 {
+  /*thanks google for the tips on opacity */
+  background-color: rgba(107,202, 226,1);
+  /* this font will eventually become germanic */
+  font-family: fantasy;
+  font-size: 60px;
+  }
+
+h2 {
+  font-family: sans-serif;
+  font-size: 25px;
+  }
+
+article {
+  background-color: azure;
+  opacity: 0.5
+}
+
+footer {
+  font-size: 17px;
+  font-family: fantasy;
+  }
+
+a {
+  font-family: cursive;
+  color: black;
+  }
+
+a:hover {
+  /* finally got this to work, link while hovering */
+  color: crimson;
+  font-size: 30px;
+  }
+
+a:visited {
+  /* after much googling got this to work too, links after being visited */
+  color: fuchsia;
+  }
