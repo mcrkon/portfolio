@@ -44,11 +44,13 @@ a {
 
 a:hover {
   /* finally got this to work, link while hovering */
+  text-decoration: none;
   color: crimson;
   font-size: 30px;
   }
 
 a:visited {
   /* after much googling got this to work too, links after being visited */
+  text-decoration: none;
   color: fuchsia;
   }
