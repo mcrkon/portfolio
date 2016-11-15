@@ -51,3 +51,7 @@ a:visited {
   text-decoration: none;
   color: blue;
   }
+
+.box:hover {
+  -webkit-transform: rotate(360deg);
+}
