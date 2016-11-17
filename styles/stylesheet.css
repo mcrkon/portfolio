@@ -23,9 +23,9 @@ body {
   transition-property: background-color, color;
   transition-duration: 2s;
   transition-timing-function: ease-out;
-  background-color:azure;
+  background-color:greenyellow;
   color:aqua;
-  box-shadow: 2px 2px 1px black;
+  box-shadow: 2px 2px 1px blue;
 }
 
 body {
