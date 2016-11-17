@@ -5,10 +5,21 @@ body {
   -o-background-size: cover;
   background-size: cover;
 }
+
+body {
+    opacity: 1;
+    transition: 1s;
+}
+body.fade-out {
+    opacity: 0;
+    transition: none;
+}
+
 body {
     font-size: 15px;
     font-family: 'Libre Franklin', sans-serif;
     align-content: center;
+    text-align: center;
       }
 
 header {
