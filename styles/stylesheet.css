@@ -6,6 +6,28 @@ body {
   background-size: cover;
 }
 
+.menuButton {
+  transition-property: background-color, color;
+  transition-duration: 2s;
+  transition-timing-function: ease-out;
+  text-align: center;
+  background-color: azure;
+  color: black;
+  font-size: 20px;
+  text-decoration: none;
+  box-shadow: 2px 2px 1px black;
+  padding: 2px 4px;
+}
+
+.menuButton:hover {
+  transition-property: background-color, color;
+  transition-duration: 2s;
+  transition-timing-function: ease-out;
+  background-color:azure;
+  color:aqua;
+  box-shadow: 2px 2px 1px black;
+}
+
 body {
     opacity: 1;
     transition: 1s;
