@@ -8,7 +8,7 @@ body {
 
 .menuButton {
   transition-property: background-color, color;
-  transition-duration: 2s;
+  transition-duration: .5s;
   transition-timing-function: ease-out;
   text-align: center;
   background-color: rgba(107,202,226,1);
@@ -23,9 +23,9 @@ body {
   transition-property: background-color, color;
   transition-duration: 2s;
   transition-timing-function: ease-out;
-  background-color:greenyellow;
-  color:aqua;
-  box-shadow: 2px 2px 1px blue;
+  background-color:white;
+  color:blue;
+  box-shadow: 2px 2px 1px aqua;
 }
 
 body {
