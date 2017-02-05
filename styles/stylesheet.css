@@ -1,31 +1,16 @@
 body {
-  background: url(images/photo-1434064511983-18c6dae20ed5.jpeg) no-repeat center center fixed;
+  background: url(images/abstract-1853406_1920.jpg) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
 }
 
-.menuButton {
-  transition-property: background-color, color;
-  transition-duration: .5s;
-  transition-timing-function: ease-out;
-  text-align: center;
-  background-color: rgba(107,202,226,1);
-  color: black;
-  font-size: 20px;
-  text-decoration: none;
-  box-shadow: 2px 2px 1px black;
-  padding: 2px 4px;
-}
-
-.menuButton:hover {
-  transition-property: background-color, color;
-  transition-duration: 2s;
-  transition-timing-function: ease-out;
-  background-color:white;
-  color:blue;
-  box-shadow: 2px 2px 1px aqua;
+img {
+  border:1px solid #;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;   
 }
 
 body {
@@ -38,48 +23,48 @@ body.fade-out {
 }
 
 body {
-    font-size: 15px;
-    font-family: 'Libre Franklin', sans-serif;
+    font-size: 1em;
+    font-family: 'Playfair Display SC', serif;
     align-content: center;
     text-align: center;
       }
 
 header {
-    color: rgba(107,202,226,1);
-    font-size: 15px;
+    color: navy;
+    font-size: 25px;
     align-content: center;
   }
 
 h1 {
-  font-size: 60px;
+  font-size: 3em;
   }
 
 h2 {
-  font-size: 25px;
+  font-size: 2em;
   }
 
 article {
-  color: rgba(107,202,226,1);
+  color: navy;
 }
 
 footer {
   font-size: 17px;
-  color: rgba(107,202,226,1);
+  color: navy;
   }
 
 a {
-  color: rgba(107,202,226,1);
+  color: navy;
   }
 
 a:hover {
   text-decoration: none;
-  color: rgba(107,202,226,1);
-  font-size: 30px;
+  color: blue;
+  font-size: 20px;
   }
 
 a:visited {
   text-decoration: none;
-  color: red;
+  color: dimgray;
   }
 
 .box:hover {
@@ -87,7 +72,7 @@ a:visited {
 }
 
 img {
-  width: 40%;
+  width: 30%;
   height: auto;
 }
 
@@ -125,4 +110,27 @@ img {
 @media only screen and (max-width: 480px) {
 	.col {  margin: 1% 0 1% 0%; }
 	.span_1_of_4, .span_2_of_4, .span_3_of_4, .span_4_of_4 { width: 100%; }
+}
+
+.menuButton {
+	background-color:transparent;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	border-radius:5px;
+	border:1px solid #dcdcdc;
+	display:inline-block;
+	cursor:pointer;
+	color:navy;
+	font-family: 'Playfair Display SC', serif;
+	font-size:15px;
+	font-weight:bold;
+	padding:8px 42px;
+	text-decoration:none;
+}
+.menuButton:hover {
+	background-color:transparent;
+}
+.menuButton:active {
+	position:relative;
+	top:1px;
 }
